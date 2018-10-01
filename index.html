@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GifTastic</title>
-    <!--<link rel="stylesheet" type="text/css" href="assets/styles/reset.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 </head>
 <body>
   
-  <div class="container">
     <h1>GifTastic!</h1>
 
-    <!-- Rendered Buttons will get Dumped Here  -->
+  <div class="container">
+    <!--JS buttons-->
     <div id="buttons-view"></div>
-
-    <form id="movie-form">
-      <label for="animal-input">Add an animal!</label>
+    <br>
+    <br>
+    <form id="animal-form">
+      <label for="animal-input"><span>Add an animal!</span></label>
       <input type="text" id="animal-input">
       <br>
-
-      <!-- Button triggers new movie to be added -->
+      <br>
+      <!--Submit gif search-->
       <input id="add-animal" type="submit" value="Add an animal to see the gifs!">
     </form>
+    </div>
+    <br>
 
-    <!-- Movies will Get Dumped Here -->
+    <!--Show me the gifs-->
     <div id="gifs-appear-here"></div>
 
 

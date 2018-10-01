@@ -1,0 +1,54 @@
+/* Main heder */
+h1 {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+/* Container for form and buttons */
+.container {
+    background-color: teal;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 5px;
+}
+
+/* Generated buttons */
+.animal-btn {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 3px;
+}
+
+/* Form font */
+form {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+}
+
+/* Decorated form description */
+span {
+    color: white;
+    background-color: maroon;
+    border: 1px solid grey;
+    padding: 1px;
+}
+
+/* Hover commands for buttons */
+button:hover {
+    background-color: maroon;
+    color: white;
+    outline: 3px solid black;
+}
+
+input[value="Add an animal to see the gifs!"]:hover {
+    background-color: maroon;
+    color: white;
+    outline: 3px solid black;
+}
